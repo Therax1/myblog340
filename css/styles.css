@@ -37,6 +37,12 @@
     font-family: "Kalam", cursive;
     font-weight: 900;
     font-size: 32px;
+    
+}
+
+.myname{
+    text-decoration: none;
+    color: #000;
 }
 
 
