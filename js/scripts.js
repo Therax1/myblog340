@@ -2,6 +2,8 @@
 
 
 
+
+/*
 document.addEventListener('DOMContentLoaded', function() {
     lienPourFlou = document.querySelector('#learn_more');
     content = document.querySelector('.home');
@@ -16,4 +18,4 @@ document.addEventListener('DOMContentLoaded', function() {
         content.classList.remove('flou');
         lienPourFlou.style.zIndex = '10'
     });
-});
+}); */
