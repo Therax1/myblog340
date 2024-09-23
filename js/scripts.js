@@ -1,8 +1,16 @@
+// Pour les liens actifs 
 
+const liens = document.querySelectorAll('.nav_controls_links a')
 
+const liensactuelle = window.location.href
 
-
-
+liens.forEach((links) => 
+{
+    if(links.href === liensactuelle){
+        liens.classList.add('activelink')
+    }
+}
+)
 /*
 document.addEventListener('DOMContentLoaded', function() {
     lienPourFlou = document.querySelector('#learn_more');

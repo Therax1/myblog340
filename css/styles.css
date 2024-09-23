@@ -71,9 +71,9 @@
     transition: 0.6s;
 }
 
-.nav_controls_links a:active{
-    font-weight: 700;
-    color: #00FF00;
+
+.activelink{
+    color: #000;
 }
 
 .nav_controls_links a::after{
@@ -95,6 +95,8 @@
 .nav_controls_links a:hover{
     transform: scale(1.1);
 }
+
+
 
 /* Mes réseaux sociaux*/
 .social_network{
