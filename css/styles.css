@@ -72,9 +72,10 @@
 }
 
 
-.activelink{
+
+/* .activelink{
     color: #000;
-}
+} */
 
 .nav_controls_links a::after{
     content: "";
@@ -88,13 +89,19 @@
 }
 
 
-.nav_controls_links a:hover::after{
-    width: 100%;
+.nav_controls_links a::after:active{
+    color: #7b7b7b;
 }
 
-.nav_controls_links a:hover{
+.nav_controls_links a:hover::after{
+    width: 100%;
     transform: scale(1.1);
 }
+
+/* 
+.nav_controls_links a:hover{
+    transform: scale(1.1);
+} */
 
 
 
